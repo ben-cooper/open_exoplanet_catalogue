@@ -1,12 +1,13 @@
+<?xml version="1.0" ?>
 <system>
 	<name>HD 4203</name>
 	<rightascension>00 44 41</rightascension>
-	<declination>+20 26 56</declination>
-	<distance errorminus="8.53" errorplus="7">77.82</distance>
+	<declination>+20d26m56.1s</declination>
+	<distance errorminus="8.53" errorplus="7.0">77.82</distance>
 	<star>
 		<mass>1.13</mass>
 		<radius>1.33</radius>
-		<magV>8.68</magV>
+		<magV>8.687</magV>
 		<magB errorminus="0.026" errorplus="0.026">9.444</magB>
 		<magR>8.2</magR>
 		<magI>7.9</magI>
@@ -23,14 +24,17 @@
 			<name>HIP 3502 b</name>
 			<name>2MASS J00444118+2026563 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.05" errorplus="0.05">1.82</mass>
+			<mass errorminus="0.05" errorplus="0.05" type="Msini">1.82</mass>
 			<period errorminus="0.27" errorplus="0.27">437.05</period>
 			<semimajoraxis errorminus="0.0222" errorplus="0.0222">1.1735</semimajoraxis>
 			<eccentricity errorminus="0.02" errorplus="0.02">0.52</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/03/11</lastupdate>
+			<discoverymethod>Radial Velocity</discoverymethod>
+			<lastupdate>14/05/14</lastupdate>
 			<discoveryyear>2001</discoveryyear>
 			<temperature>263.9</temperature>
+			<periastron errorminus="2.9" errorplus="2.9">328.03</periastron>
+			<periastrontime errorminus="2.38" errorplus="2.38">2451911.52</periastrontime>
+			<list>Confirmed exoplanets</list>
 		</planet>
 		<planet>
 			<name>HD 4203 c</name>
@@ -49,6 +53,6 @@
 			<discoveryyear>2014</discoveryyear>
 		</planet>
 		<name>HD 4203</name>
-		<temperature>5702.0</temperature>
+		<temperature>5702</temperature>
 	</star>
 </system>
