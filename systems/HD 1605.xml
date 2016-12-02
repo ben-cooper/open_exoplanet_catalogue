@@ -1,8 +1,9 @@
+<?xml version="1.0" ?>
 <system>
 	<name>HD 1605</name>
-	<rightascension>00 20 31.51872</rightascension>
-	<declination>+30 58 29.2948</declination>
-	<distance>84.6</distance>
+	<rightascension>00 20 31</rightascension>
+	<declination>+30d58m29.3s</declination>
+	<distance errorminus="7.14" errorplus="6.11">84.6</distance>
 	<star>
 		<mass errorminus="0.11" errorplus="0.11">1.31</mass>
 		<radius errorminus="0.4" errorplus="0.4">3.8</radius>
@@ -12,7 +13,7 @@
 		<magH errorminus="0.033" errorplus="0.033">5.375</magH>
 		<magK errorminus="0.020" errorplus="0.020">5.272</magK>
 		<metallicity errorminus="0.05" errorplus="0.05">0.21</metallicity>
-		<spectraltype>K1IV</spectraltype>
+		<spectraltype>K1 IV</spectraltype>
 		<age errorminus="1.37" errorplus="1.37">4.59</age>
 		<planet>
 			<name>HD 1605 b</name>
@@ -22,15 +23,17 @@
 			<name>2MASS J00203151+3058293 b</name>
 			<name>HIP 1640 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.04" errorplus="0.06">0.96</mass>
+			<mass errorminus="0.04" errorplus="0.06" type="Msini">0.96</mass>
 			<period errorminus="4.9" errorplus="5.6">577.9</period>
 			<periastrontime errorminus="67.3" errorplus="58.9">2453443.3</periastrontime>
 			<semimajoraxis errorminus="0.01" errorplus="0.02">1.48</semimajoraxis>
 			<eccentricity errorminus="0.035" errorplus="0.082">0.078</eccentricity>
 			<description>This planet was detected from a radial velocity (RV) survey of metal-rich FGK stars by using three telescopes.</description>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>15/03/26</lastupdate>
+			<discoverymethod>Radial Velocity</discoverymethod>
+			<lastupdate>15/04/01</lastupdate>
 			<discoveryyear>2015</discoveryyear>
+			<periastron errorminus="43.0" errorplus="37.0">26</periastron>
+			<list>Confirmed exoplanets</list>
 		</planet>
 		<planet>
 			<name>HD 1605 c</name>
@@ -56,6 +59,6 @@
 		<name>TYC 2261-371-1</name>
 		<name>2MASS J00203151+3058293</name>
 		<name>HIP 1640</name>
-		<temperature errorminus="50" errorplus="50">4757</temperature>
+		<temperature errorminus="50.0" errorplus="50.0">4757</temperature>
 	</star>
 </system>
