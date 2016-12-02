@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<system>
+	<name>BD+20 594</name>
+	<rightascension>03 34 36</rightascension>
+	<declination>+20 35 57</declination>
+	<distance errorminus="7.4" errorplus="9.7">152.1</distance>
+	<star>
+		<name>BD+20 594</name>
+		<mass errorminus="0.029" errorplus="0.032">0.961</mass>
+		<radius errorminus="0.04" errorplus="0.055">0.928</radius>
+		<temperature errorminus="99.0" errorplus="99.0">5766</temperature>
+		<magV>11</magV>
+		<spectraltype>K0</spectraltype>
+		<age errorminus="1.49" errorplus="1.95">3.34</age>
+		<metallicity errorminus="0.05" errorplus="0.05">-0.15</metallicity>
+		<planet>
+			<name>BD+20 594 b</name>
+			<mass errorminus="0.019" errorplus="0.019">0.0513</mass>
+			<period errorminus="0.0031" errorplus="0.0031">41.6855</period>
+			<semimajoraxis errorminus="0.019" errorplus="0.019">0.241</semimajoraxis>
+			<eccentricity>0</eccentricity>
+			<inclination errorminus="0.14" errorplus="0.17">89.55</inclination>
+			<radius errorminus="0.0098" errorplus="0.012">0.199</radius>
+			<temperature>386</temperature>
+			<transittime errorminus="0.0047" errorplus="0.0042">2457151.9021</transittime>
+			<discoverymethod>Primary Transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/02/23</lastupdate>
+			<list>Confirmed exoplanets</list>
+		</planet>
+	</star>
+</system>
