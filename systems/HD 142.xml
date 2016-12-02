@@ -40,15 +40,18 @@
 				<name>HD 142 A c</name>
 				<name>HD 142 c</name>
 				<list>Confirmed planets</list>
-				<mass>5.3</mass>
-				<period>6005</period>
-				<semimajoraxis>6.8</semimajoraxis>
-				<eccentricity>0.21</eccentricity>
+				<mass errorminus="0.7" errorplus="0.7" type="Msini">5.3</mass>
+				<period errorminus="477.0" errorplus="477.0">6005</period>
+				<semimajoraxis errorminus="0.5" errorplus="0.5">6.8</semimajoraxis>
+				<eccentricity errorminus="0.07" errorplus="0.07">0.21</eccentricity>
 				<description>This planet was discovered by the Anglo-Australian Planet Search. It is orbiting a star previously known to host one planet. The star also has a stellar companion. After the discovery of the second planet, the reported eccentricity of the first planet changed significantly. This system is an example of how multiple-planet systems can masquerade as moderately eccentric single-planet systems.</description>
-				<discoverymethod>RV</discoverymethod>
-				<lastupdate>12/12/04</lastupdate>
+				<discoverymethod>Radial Velocity</discoverymethod>
+				<lastupdate>14/08/21</lastupdate>
 				<discoveryyear>2012</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
+				<periastron errorminus="20.0" errorplus="20.0">250</periastron>
+				<periastrontime errorminus="223.0" errorplus="223.0">2455954</periastrontime>
+				<list>Confirmed exoplanets</list>
 			</planet>
 			<name>HD 142</name>
 		</star>
