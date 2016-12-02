@@ -1,8 +1,9 @@
+<?xml version="1.0" ?>
 <system>
 	<name>HD 2638</name>
-	<rightascension>00 29 16.10949</rightascension>
-	<declination>-05 54 37.7582</declination>
-	<distance>53.71</distance>
+	<rightascension>00 29 59</rightascension>
+	<declination>-05d45m50.4s</declination>
+	<distance errorminus="4.2" errorplus="3.63">53.71</distance>
 	<binary>
 		<name>WDS J00293-0555</name>
 		<separation unit="arcsec">839.60</separation>
@@ -28,30 +29,34 @@
 			<star>
 				<name>HD 2638</name>
 				<name>HD 2638 B</name>
-				<mass>0.87</mass>
-				<magV>9.44</magV>
+				<mass>0.93</mass>
+				<magV>9.375</magV>
 				<magB errorminus="0.04" errorplus="0.04">10.33</magB>
 				<magR>9.10</magR>
 				<magI errorminus="0.08" errorplus="0.08">9.19</magI>
 				<magJ>7.96</magJ>
 				<magH errorminus="0.03" errorplus="0.03">7.42</magH>
 				<magK>7.47</magK>
-				<metallicity>0.16</metallicity>
+				<metallicity errorminus="0.05" errorplus="0.05">0.16</metallicity>
 				<spectraltype>G5</spectraltype>
-				<temperature>5192</temperature>
+				<temperature errorminus="38.0" errorplus="38.0">5192</temperature>
 				<planet>
 					<name>HD 2638 b</name>
 					<list>Confirmed planets</list>
-					<mass>0.48</mass>
-					<period>3.4442</period>
+					<mass type="Msini">0.48</mass>
+					<period errorminus="0.0002" errorplus="0.0002">3.4442</period>
 					<semimajoraxis>0.044</semimajoraxis>
-					<eccentricity>0.0</eccentricity>
-					<discoverymethod>RV</discoverymethod>
-					<lastupdate>10/12/24</lastupdate>
+					<eccentricity>0</eccentricity>
+					<discoverymethod>Radial Velocity</discoverymethod>
+					<lastupdate>14/11/19</lastupdate>
 					<discoveryyear>2005</discoveryyear>
 					<temperature>978.2</temperature>
 					<list>Planets in binary systems, S-type</list>
+					<periastron>0</periastron>
+					<periastrontime errorminus="0.002" errorplus="0.002">2453323.206</periastrontime>
+					<list>Confirmed exoplanets</list>
 				</planet>
+				<age>3</age>
 			</star>
 			<star>
 				<name>HD 2638 C</name>
