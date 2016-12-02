@@ -1,8 +1,9 @@
+<?xml version="1.0" ?>
 <system>
 	<name>BD+20 2457</name>
 	<name>BD20 2457</name>
-	<rightascension>10 16 44.8635</rightascension>
-	<declination>+19 53 28.974</declination>
+	<rightascension>10 16 45</rightascension>
+	<declination>+19 53 29</declination>
 	<star>
 		<name>BD+20 2457</name>
 		<name>BD20 2457</name>
@@ -10,12 +11,12 @@
 		<name>2MASS J10164485+1953290</name>
 		<mass errorminus="1.5" errorplus="1.5">2.8</mass>
 		<magB errorminus="0.08" errorplus="0.08">10.99</magB>
-		<magV errorminus="0.03" errorplus="0.03">9.74</magV>
+		<magV errorminus="0.03" errorplus="0.03">9.75</magV>
 		<magJ errorminus="0.023" errorplus="0.023">7.299</magJ>
 		<magH errorminus="0.021" errorplus="0.021">6.606</magH>
 		<magK errorminus="0.021" errorplus="0.021">6.420</magK>
-		<temperature errorminus="10" errorplus="10">4137</temperature>
-		<metallicity errorminus="0.07" errorplus="0.07">-1.00</metallicity>
+		<temperature errorminus="17.0" errorplus="17.0">4127</temperature>
+		<metallicity errorminus="0.07" errorplus="0.07">-1</metallicity>
 		<spectraltype>K2II</spectraltype>
 		<planet>
 			<name>BD+20 2457 b</name>
@@ -28,9 +29,10 @@
 			<periastron errorminus="21.99" errorplus="21.99">207.64</periastron>
 			<periastrontime errorminus="28.19" errorplus="28.19">2454677.53</periastrontime>
 			<description>The star BD+20 2457 is located in the constellation Leo. Its metallicity is ten times lower compared to our Sun. The orbital parameters given in the discovery paper have been shown to be dynamically unstable on astronomically short timescales.</description>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>15/11/26</lastupdate>
+			<discoverymethod>Radial Velocity</discoverymethod>
+			<lastupdate>16/02/23</lastupdate>
 			<discoveryyear>2009</discoveryyear>
+			<list>Confirmed exoplanets</list>
 		</planet>
 		<planet>
 			<name>BD+20 2457 c</name>
@@ -48,4 +50,5 @@
 			<discoveryyear>2009</discoveryyear>
 		</planet>
 	</star>
+	<distance errorminus="100.0" errorplus="100.0">200</distance>
 </system>
